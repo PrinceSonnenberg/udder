@@ -12,6 +12,7 @@
 		0128BEA921DF0F01001CF413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0128BEA721DF0F01001CF413 /* Main.storyboard */; };
 		0128BEAB21DF0F11001CF413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0128BEAA21DF0F11001CF413 /* Assets.xcassets */; };
 		0128BEAE21DF0F11001CF413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0128BEAC21DF0F11001CF413 /* LaunchScreen.storyboard */; };
+		0128BEB621DF1223001CF413 /* a6530aa02144ab7fd81bc09f0c23aedc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0128BEB521DF1223001CF413 /* a6530aa02144ab7fd81bc09f0c23aedc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0128BEAA21DF0F11001CF413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0128BEAD21DF0F11001CF413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0128BEAF21DF0F11001CF413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0128BEB521DF1223001CF413 /* a6530aa02144ab7fd81bc09f0c23aedc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a6530aa02144ab7fd81bc09f0c23aedc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				0128BEA521DF0F01001CF413 /* ViewController.swift */,
 				0128BEA721DF0F01001CF413 /* Main.storyboard */,
 				0128BEAA21DF0F11001CF413 /* Assets.xcassets */,
+				0128BEB521DF1223001CF413 /* a6530aa02144ab7fd81bc09f0c23aedc.png */,
 				0128BEAC21DF0F11001CF413 /* LaunchScreen.storyboard */,
 				0128BEAF21DF0F11001CF413 /* Info.plist */,
 			);
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0128BEAE21DF0F11001CF413 /* LaunchScreen.storyboard in Resources */,
+				0128BEB621DF1223001CF413 /* a6530aa02144ab7fd81bc09f0c23aedc.png in Resources */,
 				0128BEAB21DF0F11001CF413 /* Assets.xcassets in Resources */,
 				0128BEA921DF0F01001CF413 /* Main.storyboard in Resources */,
 			);
