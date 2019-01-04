@@ -19,14 +19,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sh5-JT-Q0p">
-                                <rect key="frame" x="129" y="126" width="117" height="55"/>
+                                <rect key="frame" x="129" y="64" width="117" height="55"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fresh milk, on demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mv3-ax-S2L">
-                                <rect key="frame" x="100" y="181" width="174" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="a6530aa02144ab7fd81bc09f0c23aedc" translatesAutoresizingMaskIntoConstraints="NO" id="2eI-eD-Cpi">
+                                <rect key="frame" x="79" y="436" width="240" height="281"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh milk, on demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mv3-ax-S2L">
+                                <rect key="frame" x="100" y="444" width="174" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4vo-nQ-35m"/>
+                                    <constraint firstAttribute="width" constant="174" id="rrx-9H-qKN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -35,8 +41,12 @@
                         <color key="backgroundColor" red="1" green="0.52027808040000001" blue="0.90858737349999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sh5-JT-Q0p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="1kN-Fc-WaP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sh5-JT-Q0p" secondAttribute="bottom" constant="486" id="ICf-3A-L7x"/>
-                            <constraint firstItem="sh5-JT-Q0p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="uuY-Zz-9lU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sh5-JT-Q0p" secondAttribute="bottom" constant="548" id="ICf-3A-L7x"/>
+                            <constraint firstItem="Mv3-ax-S2L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="PKg-M9-Jv4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mv3-ax-S2L" secondAttribute="trailing" constant="101" id="YOv-iI-rP7"/>
+                            <constraint firstItem="Mv3-ax-S2L" firstAttribute="top" secondItem="sh5-JT-Q0p" secondAttribute="bottom" constant="325" id="e2C-MI-DzQ"/>
+                            <constraint firstItem="2eI-eD-Cpi" firstAttribute="top" secondItem="Mv3-ax-S2L" secondAttribute="bottom" constant="-29" id="udp-6O-cVL"/>
+                            <constraint firstItem="sh5-JT-Q0p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="uuY-Zz-9lU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sh5-JT-Q0p" secondAttribute="trailing" constant="129" id="y37-Qf-eeG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,4 +56,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="a6530aa02144ab7fd81bc09f0c23aedc" width="370" height="281"/>
+    </resources>
 </document>
